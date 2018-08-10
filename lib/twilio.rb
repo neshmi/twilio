@@ -38,7 +38,7 @@ require 'twilio/verb'
 
 module Twilio
   include HTTParty
-  TWILIO_URL = "https://api.twilio.com/2010-04-01/Accounts"
+  TWILIO_URL = "https://api.twilio.com:8443/2010-04-01/Accounts"
   SSL_CA_PATH = "/etc/ssl/certs"
 
   # The connect method caches your Twilio account id and authentication token
